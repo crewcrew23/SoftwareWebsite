@@ -1,0 +1,72 @@
+/* roboto-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+.wrapper-full{
+    max-width: 100%;
+}
+.hader_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header_menu{
+    width: 100%;
+    padding: 2% 0;
+    background-color: #6B6B6B;
+}
+.logo_name{
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 20px;
+    margin-left: 144px;
+    color: white;
+}
+.header_list{
+    display: flex;
+    justify-content: end;
+    margin-right: 164px;
+}
+.header_item{
+    align-items: center;
+    margin-right: 40px;
+    color: white;
+}
+.header_item:last-child{
+    margin-right: 0;
+}
+.header_link{
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;  
+    text-decoration: none;  
+}
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .75;
+}
+
